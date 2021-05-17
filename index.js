@@ -1,6 +1,8 @@
 import pg from 'pg';
+import express from 'express';
 
 const { Client } = pg;
+const app = express();
 
 const pgConnectionConfigs = {
   user: 'jyotikattani',
@@ -53,3 +55,7 @@ else if (appCmd === 'edit') {
 }
 
 client.query(sqlQuery, whenQueryDone);
+
+app.listen(3004, ()=> {
+  console.log('listening to port 3004');
+});
