@@ -1,0 +1,27 @@
+{
+  "name": "meal-tracker-terminal-app",
+  "version": "1.0.0",
+  "description": "a terminal-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jokatty/meal-tracker.git"
+  },
+  "author": "jo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jokatty/meal-tracker/issues"
+  },
+  "homepage": "https://github.com/jokatty/meal-tracker#readme",
+  "dependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.2",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0"
+  },
+  "type": "module"
+}
